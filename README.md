@@ -13,3 +13,14 @@ module.exports = {
   },
 };
 ```
+
+## RUN
+
+Run the docker compose file
+
+```
+docker compose up --build
+
+```
+
+Navigate your Web browser to `http://localhost:8080/` and you can draw our own patterns by clicking on the cells and toggling their state.
